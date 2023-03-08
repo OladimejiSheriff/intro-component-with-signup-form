@@ -15,7 +15,7 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/Frontend%20Mentor%20_%20Intro%20component%20with%20sign%20up%20form.png)
 
 
 
@@ -24,8 +24,8 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [View Solution](https://github.com/OladimejiSheriff/intro-component-with-signup-form)
+- Live Site URL: [live Site ](https://oladimejisheriff.github.io/intro-component-with-signup-form/)
 
 ### Built with
 
