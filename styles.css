@@ -4,6 +4,7 @@
   --Blue: hsl(248, 32%, 49%);
   --DarkBlue: hsl(249, 10%, 26%);
 --GrayishBlue: hsl(246, 25%, 77%);
+--White: #fff;
 }
 *{
 margin: 0;
@@ -16,6 +17,30 @@ body{
   background: url(/images/bg-intro-desktop.png) no-repeat center center/cover;
   background-color: var(--Red);
   height: 100vh;
+}
+.container{
+  width: 70%;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+}
+main{
+  color: var(--White);
+  width: 45%;
+ 
+}
+main h1{
+ font-size: 40px;
+  font-weight: 700;
+}
+main p{
+ line-height: 1.7;
+  font-weight: 400;
+}
+.form{
+  width: 60%;
 }
 .form-control small {
   position: absolute;
