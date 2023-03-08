@@ -13,10 +13,28 @@ const lastNameValue = lastName.value.trim()
 const emailValue = email.value.trim()
 const passwordValue = password.value.trim()
 if(firstNameValue === ''){
-  setError(firstName, 'First name cannont be empty')
+  setError(firstName, 'First Name cannont be empty')
 }
 else{
   setSuccess(firstName)
+}
+if(lastNameValue === ''){
+  setError(lastName, 'Last Name cannont be empty')
+}
+else{
+  setSuccess(lastName)
+}
+if(emailValue === ''){
+  setError(email, 'Email cannont be empty')
+}
+else if (!isEmail(emailValue)){
+  setError(email, 'Looks like this is not an email')
+}
+else{
+  setSuccess(email)
+}
+if(passwordValue === ""){
+  setError(password, "Password cannont be empty")
 }
 
 }
@@ -30,4 +48,7 @@ formControl.className = 'form-control error'
 const setSuccess = (input) => {
   const formControl = input.parentElement
   formControl.className = 'form-control success'
+}
+const  isEmail = (email)=> {
+  return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email);
 }
