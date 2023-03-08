@@ -74,7 +74,7 @@ input,
 button {
   width: 100%;
   padding: 15px 20px;
-  border-radius: 7px;
+  border-radius: 6px;
   outline: none;
   border: 1px solid lightgray;
 }
@@ -97,4 +97,13 @@ button {
   top: 40px;
   right: 10px;
   visibility: hidden;
+}
+.terms{
+  text-align: center;
+  font-size: 14px;
+  color: var(--GrayishBlue);
+}
+.terms span{
+  color: var(--Red);
+  font-weight: 700;
 }
