@@ -68,8 +68,9 @@ form {
 .form-control {
   width: 90%;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   position: relative;
+  padding-bottom: 20px;
 }
 input,
 button {
