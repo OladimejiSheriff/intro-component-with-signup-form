@@ -38,5 +38,5 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 ## Author
 
 - Github- [sheriff Oladimeji](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [OladimejiSheriff](https://www.frontendmentor.io/profile/OladimejiSheriff)
 - Twitter - [Sheriff Oladimeji](https://www.twitter.com/sheriffWebDev)
