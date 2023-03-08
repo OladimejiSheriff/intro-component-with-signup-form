@@ -1,0 +1,25 @@
+:root{
+  --Red: hsl(0, 100%, 74%);
+  --Green: hsl(154, 59%, 51%);
+  --Blue: hsl(248, 32%, 49%);
+  --DarkBlue: hsl(249, 10%, 26%);
+--GrayishBlue: hsl(246, 25%, 77%);
+}
+*{
+margin: 0;
+padding: 0;
+}
+body{
+  font-size: 16px;
+}
+.form-control small {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}.form i {
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  visibility: hidden;
+}
