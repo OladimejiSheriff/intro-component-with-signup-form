@@ -49,6 +49,7 @@ main p {
   padding: 12px;
   text-align: center;
   border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 }
 .form-title p{
   color: var(--White);
@@ -59,7 +60,7 @@ main p {
   color: var(--GrayishBlue);
 }
 form {
- 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
   padding: 30px 10px;
   width: 100%;
   background-color: var(--White);
@@ -73,14 +74,16 @@ form {
   position: relative;
   padding-bottom: 20px;
 }
-input,
-button {
+
+input
+{
   width: 100%;
   padding: 10px 20px;
   border-radius: 6px;
   outline: none;
   border: 1px solid lightgray;
 }
+
  input:focus{
   border-color: var(--Blue);
 }
@@ -89,6 +92,14 @@ button {
   background-color: var(--Green);
   border: none;
   cursor: pointer;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 }
 .form-control small {
   position: absolute;
@@ -161,8 +172,7 @@ button {
 
 footer{
   text-align: center;
-position: relative;
-bottom: 0;
+  margin-top: 40px;
   color: var(--White);
 }
 footer a{
