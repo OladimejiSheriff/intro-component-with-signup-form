@@ -22,9 +22,9 @@ body {
   width: 70%;
   margin: 0px auto;
   display: flex;
-  align-items: center;
-  height: 100vh;
+ margin-top: 100px;
   gap: 20px;
+  align-items: center;
 }
 main {
   color: var(--White);
@@ -59,7 +59,7 @@ main p {
 }
 form {
  
-  padding: 30px 5px 40px;
+  padding: 30px 10px;
   width: 100%;
   background-color: var(--White);
   border-radius: 10px;
@@ -69,6 +69,7 @@ form {
   width: 90%;
   margin: 0 auto;
   margin-bottom: 20px;
+  position: relative;
 }
 input,
 button {
@@ -98,6 +99,24 @@ button {
   right: 10px;
   visibility: hidden;
 }
+.form-control.success input {
+  border: 2px solid  var(--Green);
+}
+.form-control.error input {
+  border: 2px solid var(--Red);
+}
+.form-control.success i.fa-check-circle {
+  color: #2ecc71;
+  visibility: visible;
+}
+.form-control.error i.fa-exclamation-circle {
+  color: var(--Red);
+  visibility: visible;
+}
+.form-control.error small {
+  visibility: visible;
+  color: #e74c3c;
+}
 .terms{
   text-align: center;
   font-size: 14px;
@@ -106,4 +125,32 @@ button {
 .terms span{
   color: var(--Red);
   font-weight: 700;
+}
+@media(max-width: 768px){
+  body{
+    background: url(/images/bg-intro-mobile.png) no-repeat center center/cover;
+    background-color: var(--Red);
+  }
+  .container{
+   display: block;
+   width: 90%;
+   align-items: start;
+  
+  }
+  main,.form{
+    width: 100%;
+  }
+  main p{
+    margin: 20px 0 30px;
+  }
+  main{
+    text-align: center;
+  }
+  .form-title{
+    padding: 18px 0;
+  }
+  .form-title p{
+    width: 50%;
+    margin: auto;
+  }
 }
