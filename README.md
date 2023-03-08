@@ -7,7 +7,6 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 - [Overview](#overview)
 - [Screenshot](#screenshot)
 - [Links](#links)
-- [My process](#my-process)
 - [Built with](#built-with)
 - [Author](#author)
 
@@ -16,11 +15,6 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 ### Screenshot
 
 ![](./images/Frontend%20Mentor%20_%20Intro%20component%20with%20sign%20up%20form.png)
-
-
-
-
-
 
 ### Links
 
