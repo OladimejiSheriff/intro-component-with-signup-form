@@ -36,12 +36,16 @@ else{
 if(passwordValue === ""){
   setError(password, "Password cannont be empty")
 }
+else{
+  setSuccess(password)
+}
 
 }
 
 const setError = (input, msg) =>{
 const formControl = input.parentElement
 const  errorMsg = formControl.querySelector('small')
+input.placeholder = ""
 errorMsg.innerText = msg
 formControl.className = 'form-control error'
 }

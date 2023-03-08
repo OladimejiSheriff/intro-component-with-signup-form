@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 :root {
   --Red: hsl(0, 100%, 74%);
   --Green: hsl(154, 59%, 51%);
@@ -10,7 +11,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Popins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 body {
   font-size: 16px;
@@ -28,7 +29,7 @@ body {
 }
 main {
   color: var(--White);
-  width: 45%;
+  width: 50%;
 }
 main h1 {
   font-size: 40px;
@@ -75,7 +76,7 @@ form {
 input,
 button {
   width: 100%;
-  padding: 15px 20px;
+  padding: 10px 20px;
   border-radius: 6px;
   outline: none;
   border: 1px solid lightgray;
@@ -87,6 +88,7 @@ button {
   color: var(--White);
   background-color: var(--Green);
   border: none;
+  cursor: pointer;
 }
 .form-control small {
   position: absolute;
@@ -97,7 +99,7 @@ button {
 }
 .form i {
   position: absolute;
-  top: 40px;
+  top: 15px;
   right: 10px;
   visibility: hidden;
 }
@@ -121,7 +123,7 @@ button {
 }
 .terms{
   text-align: center;
-  font-size: 14px;
+  font-size: 12px;
   color: var(--GrayishBlue);
 }
 .terms span{
@@ -159,7 +161,8 @@ button {
 
 footer{
   text-align: center;
-  margin-top: 40px;
+position: relative;
+bottom: 0;
   color: var(--White);
 }
 footer a{
