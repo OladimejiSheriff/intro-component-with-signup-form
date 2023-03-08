@@ -39,19 +39,35 @@ main p {
   font-weight: 400;
 }
 .form {
-  width: 45%;
+  width: 40%;
+}
+.form-title{
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: var(--Blue);
+  padding: 12px;
+  text-align: center;
+  border-radius: 8px;
+}
+.form-title p{
+  color: var(--White);
+  font-weight: 700;
+}
+.form-title p span{
+  font-weight: 400;
+  color: var(--GrayishBlue);
 }
 form {
-  padding: 30px 0;
+ 
+  padding: 30px 0 50px;
   width: 100%;
   background-color: var(--White);
-
-  border-radius: 8px;
+  border-radius: 10px;
 }
 .form-control {
   width: 90%;
   margin: 0 auto;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 input,
 button {
