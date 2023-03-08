@@ -170,11 +170,3 @@ button {
   }
 }
 
-footer{
-  text-align: center;
-  margin-top: 40px;
-  color: var(--White);
-}
-footer a{
-  color: var(--White);
-}

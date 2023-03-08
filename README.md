@@ -14,7 +14,7 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 
 ### Screenshot
 
-![](./images/Frontend%20Mentor%20_%20Intro%20component%20with%20sign%20up%20form.png)
+![](./images/Frontend%20Mentor%20_%20Intro%20component%20with%20sign%20up%20form%20(1).png)
 
 ### Links
 
