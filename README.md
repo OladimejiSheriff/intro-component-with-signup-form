@@ -18,8 +18,8 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 
 ### Links
 
-- Solution URL: [View Solution](https://github.com/OladimejiSheriff/intro-component-with-signup-form)
-- Live Site URL: [live Site ](https://oladimejisheriff.github.io/intro-component-with-signup-form/)
+- Solution URL: [View Solution](https://github.com/Sheriff-Oladimeji/intro-component-with-signup-form)
+- Live Site URL: [live Site ]([https://oladimejisheriff.github.io/intro-component-with-signup-form/](https://signuptocode.netlify.app/))
 
 ### Built with
 
